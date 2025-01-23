@@ -28,6 +28,7 @@ export default function OrderTableFilters() {
           <SelectItem value="delivered">Entregue</SelectItem>
         </SelectContent>
       </Select>
+
       <Button type="submit" variant="secondary" size={"xs"}>
         <Search className="h-4 mr-2" /> Filtrar resultados
       </Button>
